@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.benner</groupId>
-  <artifactId>Regulacao-bak</artifactId>
+  <artifactId>Regulacao-bak-2019-10</artifactId>
   <version>2.0.1-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>Regulacao.bak01</name>
+  <name>Regulacao-bak-2019-10</name>
   <description></description>
   <dependencies>
     <dependency>
