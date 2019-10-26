@@ -1,0 +1,21 @@
+package com.benner.regulacao;
+global String emailTxt;
+
+//from row number: 1
+//Postal
+rule "Setup_Comunicacao_Por_Email"
+	ruleflow-group "com.benner.regulacao:Setup_Email_Comunicacao"
+
+	dialect "mvel"
+	when
+		$controle : controle( registro_ans == 304015 )
+	then
+	    emailTxt = new String();
+        //log.debug( String.format("%s is %d years old, er, young", "Al", 45) )
+		$controle.setEmailFrom( "benner.bto@benner.com.br" );
+		$controle.setEmailTo( "paulo@triopropaganda.com" );
+		$controle.setEmailSubject( "Envio de email" );
+		$controle.setEmailBody(String.format("Solicitação autorizada guia: %d",$controle.getGuia_id()));
+		$controle.setEmailBody( "Solicitação autorizada" );
+end
+

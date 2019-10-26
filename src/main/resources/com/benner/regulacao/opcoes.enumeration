@@ -1,0 +1,6 @@
+'controle.tipo_sadt' : ['ENFERMAGEM','HOME-CARE','TERAPIA']
+'controle.carater_atendimento' : ['1=Eletiva', '2=Urgência/Emergência ']
+'controle.situacao_original' : ['NE=Negado', 'AU=Autorizado','AN=Em analise']
+'controle.situacao_regulacao' : ['NE=Negado', 'AU=Autorizado','AN=Em analise']
+'controle.tipo_guia' : ['CONSULTA','INTERNACAO','ODONTO','SP/SADT']
+'control.testeCoberturaAcao' : ['NE=Negado', 'AU=Autorizado']
